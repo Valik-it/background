@@ -1,0 +1,138 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+#particles-js {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;	
+}
+
+#page-wrapper {
+	position: relative;
+	z-index: 2;
+	background-color: #fff;
+	width: 60%;
+	margin: 0 auto;
+	padding: 25px;
+	min-height: 1500px;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333; 
+}
+
+.header {
+	
+	margin-bottom: 10px;
+}
+
+.inner-header {
+	background: #3d3c66;
+	height: 150px;
+}
+
+.content {
+    width: 71%;
+    float: left;
+    align-content: center;	
+}
+
+.inner-content {
+		background: #3d3c66;
+        min-height: 1175px;
+        align-content: center;
+}
+
+.sidebar-1 {
+		width: 29%;
+		float: left;
+		padding-left: 8px; /* отступ влево */
+}
+
+.inner-sidebar-1 {
+	    background: #3d3c66;
+		min-height: 1175px;
+}
+
+.footer{
+	background-color: #24262b;
+	padding: 70px 0;
+	margin-top: 10px;
+}
+
+.container{
+	max-width: 1250px;
+	margin: auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #fff;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 350;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #fff;
+	padding-left: 10px;
+}
+
+.footer-col .social-media a{
+	display: block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-media a:hover{
+	color: #24262b;
+	background-color: #fff;
+}
